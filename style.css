@@ -20,7 +20,7 @@
     background-repeat: no-repeat;
     background-position: 980px; 
     width: 380px;
-    margin-top: -400px;
+    margin-top: -500px;
     }
     
    
@@ -28,9 +28,9 @@
    .cart-nav{
     
     width: 1440px;
-    height: 782px;;
-    /* margin-top: -400px;
-    */
+    height: 782px;
+    margin-top: -100px;
+    
     
   }
   .cart{
@@ -41,22 +41,19 @@
      text-align: center;
     width: 180px;
     height: 90px;
-  margin-top: 300px;
     margin-left:1199px;
-    border-radius:12px ; */
+    border-radius:12px ;
+    margin-top: -600px;
   
   }
-  #h1-01{
-    /* margin-top: 100px; */
   
-  }
   .cart-2{
     border: 1px;
     color: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.16);
     width:170px ;
     height:90px ;
-    margin-top: 400px ;
+    margin-top: 230px ;
     margin-left: 890px;
     text-align: center;
   }
@@ -123,7 +120,7 @@
     .span{
     color: #FFFFFF;
     margin-left: 20px;
-  
+  margin-top: 150px;
     font-weight: bolder;
     font-size: 2.5em;
     
