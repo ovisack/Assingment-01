@@ -18,7 +18,7 @@
       display: block; 
       background-image: url(./images/Images\ 2.png);
     background-repeat: no-repeat;
-    background-position: 980px; 
+    background-position: 880px; 
     width: 380px;
     margin-top: -500px;
     }
@@ -41,7 +41,7 @@
      text-align: center;
     width: 180px;
     height: 90px;
-    margin-left:1199px;
+    margin-left:1099px;
     border-radius:12px ;
     margin-top: -600px;
   
@@ -54,7 +54,7 @@
     width:170px ;
     height:90px ;
     margin-top: 230px ;
-    margin-left: 890px;
+    margin-left: 790px;
     text-align: center;
   }
   .naveber{
@@ -62,7 +62,7 @@
   }
   .nav-item0{
     margin-top: -50px;
-    margin-left: 850px;
+    margin-left: 750px;
   }
    
   .barnd{
@@ -246,13 +246,17 @@
     }
     /* img style 3 */
     .ran{
-      width: 500px;
+      width: 700px;
       height: 271px ;
       resize: 18px;
       background-color: #222222;
       margin-left: 250px;
       radius:  18px;
       margin-top: 50px;
+    
+    }
+    .ran-01{
+      margin-left: 200px;
     }
     .ran-1{
   width: 250px;
@@ -277,20 +281,20 @@
       font-size: 40px;
       font-weight: bolder;
     }
-   .ran-4{
+   #ran-4{
     width: 120px;
     height: 30px;
-    color: #FFFFFF;
-    border: 1px  solid 
-    #E6533C;
-    border-radius: 35px 35px ;
-    background-color: #E6533C;
+    color:white;
+     border-radius: 35px 35px ;
+    background-color: #E6533C; 
+    
      margin-left: 10px; 
      text-align: center; 
      font-size: 0.80rem; margin-top: 25px;
+     
    }
    /* <section class="img-leout"> */
-   .img-leout{
+   /* .img-leout{
     background-color: #111111;
     display: flex;
     width: 100px ;
@@ -299,8 +303,8 @@
     margin-top: 100px;
    }
    .img-h1{
-    color: #FFFFFF;
-   }
+    color: #FFFFFF;} */
+   
    .het{
     color: #FFFFFF;
   
@@ -550,7 +554,7 @@
     width:100%;
     flex-direction: row;
     margin-top: -50px;
-    margin-left: -850px;
+    margin-left: -750px;
 
    }
     .cintanier, .hetlain{
@@ -562,14 +566,15 @@
        
      background-image: url(./images/Images\ 2.png);
      margin-top: 700px;
-     margin-left: -900px;
+     margin-left: -890px;
+    
     
      
     }
    
     .cart{
-    
-      margin-left: 300px; 
+  
+      margin-left: 200px; 
       width:121px;
     }
     .cart-2{
@@ -614,13 +619,41 @@
     margin-left: -450px;
     margin-top: 900px;
     }
-    .ran, .ran-1, .ran-0{
-      width: auto;
-      flex-direction: row;
-      width: 100%;
+    .ran{
+      width: 310px;
+      height: 540px;
+      /* flex-direction: column; */
+      margin-left:50px ;
+   
     }
-    
-  
-  
+    .ran-0{
+width: 280px;
+      font-size: 5px;
+      margin-top: -470px;
+    }
+   .ran-1{
+  width: 280px;
+  height: 200px;
+    height: 180px;
+margin-top: 300px;
+margin: right -500px;
+   }
+   .ran-01{
+    margin-left: -230px;
+   }
+   #ran-4{
+    margin-left: 50px;
+    width: 70%;
+   }
+  .deta-box{
+    width: 400px;
+    height: 780px;
+    flex-direction: column;
+  }
+  .dietl-box-1{
+   width: 310px;
+   height: 230px;
+    margin-right: 10000px;
+  }
     }
    
