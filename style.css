@@ -10,21 +10,19 @@
   background-color: #111111;
   }
   
-  .cart-nav{
-   
-    display: block;
-    background-image: url(./images/Images\ 2.png);
-  background-repeat: no-repeat;
-  background-position: 980px;
-  width: 380px;
-  } 
-  
-  /* @media screen reposib style */
+ 
+.cart-nav{
+  display: block; 
+  background-image: url(./images/Images\ 2.png);
+background-repeat: no-repeat;
+background-position: 980px; 
+width: 380px;
+margin-top: -200px;
 
+}
   
   .cart-nav{
     
-    /* border: 2px solid #E6533C; */
     width: 1440px;
     height: 782px;;
   
@@ -120,13 +118,13 @@
      text-align: center;
     width: 180px;
     height: 90px;
-    margin-top:80px ;
+  margin-top: 300px;
     margin-left:1199px;
     border-radius:12px ; */
   
   }
-  .h1-01{
-    margin-top: 100px;
+  #h1-01{
+    /* margin-top: 100px; */
   
   }
   .cart-2{
@@ -135,7 +133,7 @@
     background-color: rgba(255, 255, 255, 0.16);
     width:170px ;
     height:90px ;
-    margin-top: 250px ;
+    margin-top: 400px ;
     margin-left: 890px;
     text-align: center;
   }
@@ -199,8 +197,8 @@
   display: flex;
   
     gap: 50px;
-    margin-left: 350px;
-    
+    margin-left: -50px;
+     
   
     
     }
@@ -543,9 +541,67 @@
     color: #FFFFFF;
     margin-top: -100px;
     margin-left: 400px;
-    m
+    
   }
   
-  /* @media screen reposib style */
- 
+  /** @media screen reposib style */
+
+   @media screen and (max-width: 576px) {
   
+    body{
+
+    }
+   .naveber{
+    width: auto;
+    flex-direction: row;
+
+   }
+    .cintanier, .hetlain{
+      width: auto;
+    flex-direction: column;
+    
+    }
+    .cart{
+      width: auto;
+      flex-direction: column; 
+    }
+    .cart-2{
+      width: auto;
+      flex-direction: column; 
+    }
+    .box2{
+      width: auto;
+      flex-direction: row;
+    }
+    .info{
+      width:auto;
+      flex-direction: column;  
+    }
+    .baton{
+      width: auto;
+      flex-direction: row;
+
+    }
+    .box2{
+      height: 45px;
+      width: 200px;
+      color: #FFFFFF;
+      border: 1px  solid 
+      #FFFFFF;
+      border-radius: 45px 45px; 
+    }
+    .hading{
+      width: auto;
+    margin-left: -300px;
+    margin-top: 200px;
+    }
+    .ran, .ran-1, .ran-0{
+      width: auto;
+      flex-direction: row;
+      width: 100%;
+    }
+    
+  
+  
+    }
+   
