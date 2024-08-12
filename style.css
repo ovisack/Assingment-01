@@ -600,11 +600,7 @@ margin-left: 50px;
     .span{
       margin-top: -1100px;
     }
-    .baton{
-      width: auto;
-      flex-direction: row;
-
-    }
+  
     .box2{
       height: 45px;
       width: 200px;
@@ -646,7 +642,7 @@ margin: right -500px;
    }
   .deta-box{
     width: 400px;
-    height: 780px;
+    height: 880px;
     flex-direction: column;
   }
   .ditel-01{
@@ -665,9 +661,48 @@ margin: right -500px;
 .papa-2{
   width: 10%;
   height: 10px;
+  margin-left: -170px;
+  margin-top: -px;
 }
 #c-1{
-  width: 10px;
+  width: 140px;
+  height: 40px;
+}
+#c-2{
+  width: 140px;
+  height: 40px;
+}
+#c-3{
+  width: 140px;
+  height: 40px;
+}
+#c-4{
+  width: 156px;
+  height: 45px;
+}
+#select-id{
+  width: 205%;
+  height: 44px;
+}
+.h1-p1{
+  width: 50%;
+  margin-left: -180px;
+  
+}
+.h1{
+font-size: 16;
+initial-letter: 0.3px;
+line-height: 25px
+;
+font-weight: 900;
+}
+.p1{
+  font-size: 14;
+  font-weight: 400;
+}
+.buten{
+  margin-top: -80px;
+  margin-left: 10px;
 }
 }
    
