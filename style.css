@@ -294,16 +294,7 @@
      
    }
    /* <section class="img-leout"> */
-   /* .img-leout{
-    background-color: #111111;
-    display: flex;
-    width: 100px ;
-    height: 100px ;
-    gap: 10px;
-    margin-top: 100px;
-   }
-   .img-h1{
-    color: #FFFFFF;} */
+  
    
    .het{
     color: #FFFFFF;
@@ -319,13 +310,17 @@
     width: 1440px ;
     height: 487px;
     background-color: #222222;
-    margin-top: 100px;
+     margin-top: 30px;
    }
-   #dietl-h1{
-    margin-top: 70px;
-    margin-left: 60px ;
-   }
-   
+    .dietl-box-1{
+
+      padding-top: 50px;
+    }
+  #ditel-01{
+margin-left: 50px;
+  }
+
+  
    .ditel-01,tr, th,td{
     border: 2px solid rgba(255, 255, 255, 0.16);
     border-collapse: collapse;
@@ -333,7 +328,7 @@
     height: 60px; 
     margin-left: 150px ;
     text-align: center;
-    margin-top: 50px;
+
    }
    
   /* input style */
@@ -350,22 +345,22 @@
   
   }
   
-  .baba-2{
+  .papa-2{
     display: grid;
     grid-template-columns:repeat(2, 1fr );
    
-    gap: 8px;
+    gap: 8px; 
     
   }
   #c-1{
     background-color:rgba(255, 255, 255, 0.16);
-    color:#111111;
+
     width: 250px;
     height: 30px;
     border-radius: 8px 8px;
     padding: 
     12px, 40px, 12px, 20px;
-  
+    padding-left: 10px;
     
   }
   
@@ -377,47 +372,50 @@
     border-radius: 8px 8px;
     padding: 
     12px, 40px, 12px, 20px;
-   
+    padding-left: 10px;
     
   }
   #c-3{
     background-color:rgba(255, 255, 255, 0.16);
-    color: #111111;
+  
     width: 250px;
     height: 30px;
     border-radius: 8px 8px;
     padding: 
     12px, 40px, 12px, 20px;
-   
+    padding-left: 10px;
    
   }
   #c-4{
     background-color:rgba(255, 255, 255, 0.16);
-    color:black;
-    width: 260px;
+    width:270px;
     height: 35px;
-    border-radius: 8px;
+    border-radius: 8px 8px;
+
   
     padding: 
-    12px, 40px, 12px, 20px;
-    
+    13px, 40px, 13px, 22px;
+    padding-left: 10px;
    
   }
   
   #select-id{
+   
+    
     background-color:rgba(255, 255, 255, 0.16);
+    width: 200%;
     
-    width: 550px;
-    height: 30px;
+    height: 35px;
     border-radius: 8px;
-  
     padding: 
-    12px, 40px, 12px, 20px;
-    margin-top: 1cap;
+    13px, 40px, 13px, 22px;
+    padding-left: 10px;
     
+    
+
   
   } 
-  
+   
   .ditel-01{
     margin-left: 10px;
     margin-top: 10px;
@@ -429,13 +427,14 @@
     margin-top: -30px;
   }
   .buten{
-    display: flex;
+    display:block ;
     height: 50px;
     width: 150px;
     color: #FFFFFF;
     background-color: #E6533C;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 300px;
+    margin-left: -575px;
   
 
   }
@@ -650,10 +649,25 @@ margin: right -500px;
     height: 780px;
     flex-direction: column;
   }
-  .dietl-box-1{
-   width: 310px;
-   height: 230px;
-    margin-right: 10000px;
+  .ditel-01{
+   width: 10;
+   height: 23px;
+
+    margin-left: -50px;
   }
-    }
+  #ditel-01{
+    margin-left: -100px;
+  }
+/* .input{
+  width: 10px;
+  height: 170px;
+} */
+.papa-2{
+  width: 10%;
+  height: 10px;
+}
+#c-1{
+  width: 10px;
+}
+}
    
