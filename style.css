@@ -688,7 +688,9 @@ margin: right -500px;
     margin-left: 50px;
     width: 70%;
    }
-  
+  .het{
+margin-left: 50px;
+  }
   .deta-box{
     width: 380px;
     height: 880px;
@@ -763,6 +765,9 @@ display: grid;
  margin-left: 50px;
 
 
+}
+.time-het{
+  margin-left: 50px;
 }
 .imgbox-1{
 gap: 1px;
