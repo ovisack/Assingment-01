@@ -587,7 +587,7 @@ padding-left: 20px;
        
      background-image: url(./images/Images\ 2.png);
     margin-top: 850px;
-     margin-left: -790px;
+     margin-left: -850px;
     
     
      
@@ -602,7 +602,7 @@ padding-left: 20px;
     }  */
      .cart-01{
       margin-top: -650px;
-      margin-left: 280px; 
+      margin-left: 220px; 
       width:150px ;
       height: 60px;
       font-weight: 900;
@@ -612,7 +612,7 @@ padding-left: 20px;
      }
     .cart-1{
       margin-top: 100px;
-      margin-left: 100px; 
+      margin-left:50px; 
       width:111px ;
       font-weight: 900;
     }
@@ -641,12 +641,15 @@ margin-top: 200px;
       width: auto;
       margin-top: -650px;
       font-size: 36px;
+      
     }
     .praga{
       width: 400px;
       
     }.pas{
+      width: 300px;
       font-style: 1px;
+      margin-left: 10px;
     }
 
     .box2{
