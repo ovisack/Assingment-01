@@ -693,7 +693,7 @@ margin: right -500px;
     width: 380px;
     height: 880px;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: ;
   }
   .ditel-01{
    width: ;
@@ -783,10 +783,10 @@ gap: 1px;
   width: 400px;
   height: 780px;
 margin-top: 50px;
-margin-left: 40px;
+margin-left: 0px;
 }
 .footer-1{
-  margin-left: 100px;
+  margin-left: 50px;
 }
 .footer-2{
   margin-left: 100px;
