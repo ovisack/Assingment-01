@@ -20,7 +20,7 @@
     background-repeat: no-repeat;
     background-position: 880px; 
     width: 380px;
-    margin-top: -500px;
+  
     }
     
    
@@ -29,33 +29,47 @@
     
     width: 1440px;
     height: 782px;
-    margin-top: -100px;
+    margin-top: 500px;
     
     
-  }
+  } 
   .cart{
 
+    
+    margin-left:1099px;
+
+  margin-top: -600px;
+  
+  }
+  .cart-01{
     border: 1px;
     color: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.16);
      text-align: center;
     width: 180px;
     height: 90px;
-    margin-left:1099px;
-    border-radius:12px ;
     margin-top: -600px;
-  
+    margin-left: 1100px;
+    border-radius:12px ;
   }
-  
-  .cart-2{
+  .cart-1{
     border: 1px;
     color: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.16);
-    width:170px ;
+    width:140px ;
     height:90px ;
-    margin-top: 230px ;
-    margin-left: 790px;
+    margin-top: 250px ;
+    margin-left: 820px;
     text-align: center;
+    border-radius:12px ;
+  }
+  .ret{
+     height: 25px;
+     width: 25px;
+    background-color: red;
+    border-radius: 200px;
+    margin-top: -59px;
+    margin-left: 10px;
   }
   .naveber{
     margin-top: -50px;
@@ -113,7 +127,7 @@
    .info{
     color: #FFFFFF;
     margin-left: 80px;
-    margin-top: -640px;
+    margin-top: -600px;
     font-weight: bolder;
     font-size: 2em;
   
@@ -137,6 +151,7 @@
   
   
   .praga{
+    color: #777777;
     font-size: 18px;
   }
   .baton{
@@ -223,7 +238,7 @@
       color: #FFFFFF;
      display: flex;
       gap: 50px;
-      margin-left: 350px;
+      margin-left: 250px;
       font-weight: bolder;
     
       
@@ -238,11 +253,15 @@
    
   
     .p{
-   color: #E6533C;
-   font-weight: bolder;
-      font-size: 10px;
+      color:#777777;
+   font-weight: 200;
+   
+      font-size: 15px;
     
   
+    }
+    .p1{
+      color:#777777;
     }
     /* img style 3 */
     .ran{
@@ -251,7 +270,7 @@
       resize: 18px;
       background-color: #222222;
       margin-left: 250px;
-      radius:  18px;
+      border-radius:  18px;
       margin-top: 50px;
     
     }
@@ -317,7 +336,7 @@
       padding-top: 50px;
     }
   #ditel-01{
-margin-left: 50px;
+padding-left: 20px;
   }
 
   
@@ -528,13 +547,14 @@ margin-left: 50px;
     width: 1100px;
     height: 0;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
     
   }
   .den-den{
-    color: #FFFFFF;
+    color:#777777;
     margin-top: 40px;
     margin-left: 400px;
+    font-size: 15px;
     
   }
   
@@ -544,10 +564,11 @@ margin-left: 50px;
   
     body{
  width: 350px;
- height: auto;
+ height: 2000px;
     }
     .header{
       width: auto;
+    height:200px;
     }
     
    .naveber{
@@ -565,43 +586,69 @@ margin-left: 50px;
     .cart-nav{
        
      background-image: url(./images/Images\ 2.png);
-     margin-top: 700px;
-     margin-left: -890px;
+    margin-top: 850px;
+     margin-left: -790px;
     
     
      
     }
    
-    .cart{
+     /* .cart-nav{
   
-      margin-left: 200px; 
-      width:121px;
-    }
-    .cart-2{
+      margin-left: -200px; 
+      width:111px;
+      
+      
+    }  */
+     .cart-01{
+      margin-top: -650px;
+      margin-left: 280px; 
+      width:150px ;
+      height: 60px;
+      font-weight: 900;
+     }
+     #h1-01{
+          font-size: 20px;
+     }
+    .cart-1{
       margin-top: 100px;
-      margin-left: 20px; 
-      width:121px ;
+      margin-left: 100px; 
+      width:111px ;
+      font-weight: 900;
     }
     
     .hetlain{
       margin-left: 150px;
+      /* margin-top: 800px;  */
     
+    }
+    .leout-1{
+margin-top: 200px;
     }
 
-    .box2{
-      width: auto;
-      flex-direction: row;
+    .baton{
+      margin-top: -750px;
     }
-    .info{
-    width: auto;
     
-    margin-top: 1440;
+    .info{
+    width:400px ;
+    height: 1000px
+    
+    ;
       
     }
     .span{
-      margin-top: -1100px;
+      width: auto;
+      margin-top: -650px;
+      font-size: 36px;
     }
-  
+    .praga{
+      width: 400px;
+      
+    }.pas{
+      font-style: 1px;
+    }
+
     .box2{
       height: 45px;
       width: 200px;
@@ -611,9 +658,9 @@ margin-left: 50px;
       border-radius: 45px 45px; 
     }
     .hading{
-      width: auto;
+      width: 300px;
     margin-left: -450px;
-    margin-top: 900px;
+    margin-top: 700px;
     }
     .ran{
       width: 310px;
@@ -641,10 +688,12 @@ margin: right -500px;
     margin-left: 50px;
     width: 70%;
    }
+  
   .deta-box{
-    width: 400px;
+    width: 380px;
     height: 880px;
     flex-direction: column;
+    margin-left: 50px;
   }
   .ditel-01{
    width: ;
@@ -718,6 +767,7 @@ display: grid;
 .imgbox-1{
 gap: 1px;
 
+
 }
 #imgbox-1{
   width:260px;
@@ -731,8 +781,9 @@ gap: 1px;
 }
 .footer-my{
   width: 400px;
-  height: 760px;
+  height: 780px;
 margin-top: 50px;
+margin-left: 40px;
 }
 .footer-1{
   margin-left: 100px;
@@ -747,11 +798,12 @@ margin-top: 50px;
 }
 .den{
   margin-left: 10px;
+
   width: 350px;
 }
 .den-den{
   margin-top: 10px;
-  margin-left:10px ;
+  margin-left:60px ;
 }
 }
    
